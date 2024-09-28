@@ -68,19 +68,13 @@
     .navbar {
         background: var(--bs-dark);
     }
-    
-    .header {
-        height: 800px !important;
-        min-height: 800px !important;
+
+    .hero .image-container {
+        display: flex;
+        justify-content: center;
     }
 
-    .header .slide {
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .header .text-container p {
-        width: 100% !important;
-        font-size: 16px;
+    .hero .text-container {
+        text-align: center;
     }
 }
