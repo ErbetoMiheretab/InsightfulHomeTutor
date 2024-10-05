@@ -78,3 +78,33 @@
         text-align: center;
     }
 }
+
+@media (max-width: 768px) {
+    .navbar {
+            background: var(--bs-dark);
+        }
+    
+        .hero .image-container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .hero .text-container {
+            text-align: center;
+        }
+}
+
+@media (max-width: 576px) {
+    .navbar {
+            background: var(--bs-dark);
+        }
+    
+        .hero .image-container {
+            display: flex;
+            justify-content: center;
+        }
+    
+        .hero .text-container {
+            text-align: center;
+        }
+}
