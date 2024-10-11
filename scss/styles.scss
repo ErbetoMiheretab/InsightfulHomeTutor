@@ -60,7 +60,9 @@ body {
     border: none;
     /* Remove border if needed */
 }
-
+.list-group-item {
+    word-wrap: break-word;
+}
 
 @media all and (max-width: 992px) {
     .navbar {
